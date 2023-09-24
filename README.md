@@ -6,11 +6,11 @@ Simple 6502 emulator emulating some basic commodore 64 KERNAL calls
 
 You must first assemble your assembly file. For example, with CA65:
 
-`cl65 save.s`
+`cl65 examples/save.s`
 
 Then you can run the file with:
 
-`./engine save`
+`./engine examples/save`
 
 The following linux command proves the program should not differ from the
 saved file:
