@@ -1,0 +1,35 @@
+CPU:
+
+ - fake6502.c (Public domain)
+ - https://github.com/bzotto/MCS6502 (MIT)
+
+Sound: 
+
+ - https://github.com/meenie/band.js (MIT)
+ - https://github.com/daitangio/sid-arduino-lib (unlicensed? Platform: arduino)
+
+Tutorial series:
+
+ - https://www.youtube.com/watch?v=qJgsuQoy9bc&list=PLLwK93hM93Z13TRzPx9JqTIn33feefl37
+
+PETSCII:
+
+ - https://github.com/mobluse/x16-petscii2utf8
+ - http://viznut.fi/unscii/ (SDL source)
+ - https://dflund.se/~triad/krad/recode/pet_unicode.txt
+ - https://dflund.se/~triad/krad/recode/petscii_c64en_uc.txt
+ - https://style64.org/petscii/
+
+BASIC:
+
+ - https://github.com/mist64/cbmbasic
+
+KENRAL:
+
+ - https://sta.c64.org/cbm64krnfunc.html
+ - https://www.pagetable.com/c64ref/c64disasm/ - documented dissassembly
+
+GPL stuff:
+
+ - https://github.com/MEGA65/open-roms
+ - https://github.com/lgblgblgb/xemu

@@ -1,0 +1,18 @@
+ - Emulate basic kernal routines (see: https://sta.c64.org/cbm64krnfunc.html)
+   * No need for serial stuff, etc. - just the basics
+   * Basic file handling (SETLFS, SETNAM, LOAD, SAVE)
+   * File handling (OPEN, CLOSE, SETLFS, SETNAM, CHKIN, CHKOUT)
+    - see https://www.lemon64.com/forum/viewtopic.php?t=64677&highlight=scratch
+    - to scratch you can just call SETLFS then SETNAM with name of "S0:FILE_TO_DELETE"
+      ...after calling OPEN this will delete the file (CLOSE after)
+    - can do similar for rename (e.g. "R:newname=oldname")?
+   * Character ouput (CHROUT, PLOT maybe) - necessary for writing files
+   * LOAD / SAVE routines? Helpful for verifying
+   * Input? (GETIN, CHRIN)
+ - VIC chip
+   * Sprites
+   * Changing screen RAM location, etc.
+   * Color RAM
+ - Emulate CIA (see: https://www.c64-wiki.com/wiki/CIA)
+   * Also see: https://retrocomputing.stackexchange.com/questions/6421/reading-both-keyboard-and-joystick-with-non-kernal-code-on-c64
+ - Perhaps we can bundle basic? (See: cbmbasic in IDEAS)
